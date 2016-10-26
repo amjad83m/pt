@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <link rel=stylesheet type="text/css" href="pt.css">
+        <meta name="description" content="Pascal's Triangle generator using JavaScript">
+        <meta charset="utf-8">
+        <title>Pascal Triange Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Amjad Muhammad">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <h2>Pascal's Triangle Generator</h2>
+            <div class="myDiv">
+                <div id="user-input-container">
+                    <p>Enter the depth of Pascal's Triangle:</p>
+                    <input id="user-input-field" required>&nbsp;
+                    <button type="button" onclick="getUserInput()">Submit</button>&nbsp;
+                    <button type="button" onclick="resetResult()">Reset</button>
+                </div>
+            </div>
+            <div id="pt"></div>
+            <script type="text/javascript" src="pt.js"></script>
+        </div>
+    </body>
+</html>
